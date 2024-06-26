@@ -1,0 +1,20 @@
+.header{
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.links {
+    font-family: sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.aboutinfo{
+    background-color: aliceblue;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
