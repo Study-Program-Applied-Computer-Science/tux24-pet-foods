@@ -15,8 +15,7 @@ nav {
     margin: 0 auto;
     padding: 0 20px;
     cursor: pointer;
-    box-shadow: black;/
-    
+    box-shadow: black;
 }
 
 nav ul  {
@@ -35,7 +34,7 @@ nav ul li a {
     color: white;
 }
 .parent-container {
-    background-image: url('dog\ img/processed-pet-foods-2732x911.jpg');
+    background-image: url('processed-pet-foods-2732x911.jpg');
     background-size: cover;
     height: 300px;
 }
