@@ -2,6 +2,7 @@
 
 body {
     margin: 0px; 
+    font-family: Arial, sans-serif;
 }
 
 .homelogo{
@@ -15,20 +16,14 @@ body {
     border-radius: 10px;
 }
 
-.navbar {
-    font-family: sans-serif;
-    /* padding: 10px; */
-    text-decoration: none;
-}
 
-body {
-    font-family: Arial, sans-serif;
-}
 
 .navbar {
     display: flex;
-    background-color: #fff;
+    background-color: #3e4143;
     justify-content: center;
+    margin: 0px;
+
 }
 
 .nav-item {
@@ -36,7 +31,7 @@ body {
 }
 
 .nav-item a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     text-align: center;
     display: block;
