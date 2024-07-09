@@ -54,6 +54,16 @@ body {
     flex-direction: row;
 }
 
+
+.flex1 img {
+    background: transparent;
+}
+
+.homelogo{
+    width: 300px;
+    height: 50px;
+}
+
 .flex1 input {
     width: 400px;
     height: 12px;
