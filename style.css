@@ -116,7 +116,16 @@ body {
     margin: 0;
 }
 
-.imagecontainer{
+.Header2{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+  }
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
     padding: 5rem;
     justify-content: center;
     align-items: center;
@@ -124,49 +133,59 @@ body {
     overflow: hidden;
 }
 
-.images{
-   display: flex;
-   flex-direction: row;
-   gap: 20px;
-   justify-content: center;
-   
-   
+   .card-container {
+    display: flex;
+    gap: 20px;
 }
 
-.images .img1 {
- width: 250px;
- height: 250px;
- max-width: fit-content;
- 
- object-fit: cover;
- display: block;
- border-radius: 100%;
- border: 2px solid black;
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
-.images .img2 {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+.card:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+
+}
+
+.card img {
+    width: 80px; 
+    height: 80px;
+    margin: 0 auto;
     display: block;
-    border-radius: 100%;
-    border: 2px solid black;
+}
 
-   }
+.card-content {
+    padding: 15px;
+}
 
-   .img1:hover {
-    transform: scale(1.1);
-   }
+.card-content h2 {
+    margin: 0 0 10px;
+}
 
-   .img2:hover {
-    transform: scale(1.1);
-   }
-
+.card-content p {
+    color: #666;
+}
    
 
  .carouselcontainer {
-    padding: 80px;
-    /* padding-top: 0px; */
+    padding: 100px;
+    overflow: hidden;
+    
 }
 
  .slider-wrapper {
@@ -181,17 +200,17 @@ body {
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem --0.75rem hsla(0, 0%, 0%, 0.25);
-    /* border-radius: 0.5rem; */
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     transition: transform 0.5s ease;
+    
 }
 
 .slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit: cover;
-    width: 451.41px;
-
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .slider-nav {
@@ -252,9 +271,6 @@ body {
     margin-top: 50px;
   }
 
-  .Header2{
-    text-align: center;
-    font-size: 20px;
-  }
+  
 
   
