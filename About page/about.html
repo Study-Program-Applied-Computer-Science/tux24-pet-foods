@@ -6,12 +6,15 @@
         <title>About Us - Happy Tails - Pet Foods</title>
         <link rel="stylesheet" href="assets/css/about.css">
         <link rel="shortcut icon" href="assets/images/icons8-paw-16.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     </head>
+
     <body>
         <div class="header">
-            <div class="logobackground">  
+            <div class="logoBackground">  
                 <div class="flex1">
-                    <img class="homelogo" src="assets/images/logo.svg" alt="happy tails logo"/>
+                    <img class="homeLogo" src="assets/images/logo.svg" alt="happy tails logo"/>
                     <div class="search-container">
                         <i class="fas fa-search search-icon"></i>
                         <input type="search" class="search-input" placeholder="Search items">
@@ -21,7 +24,7 @@
             </div>
         </div>
 
-        <div class="navbar">
+        <div class="navBar">
             <div class="nav-item">
                 <a href="../index.html" style="margin-left: 8px; text-decoration: none;">Home</a>
             </div>
@@ -34,16 +37,61 @@
         </div>
 
         <div class="aboutUs">
-            <h1>About Us</h1>
-            <p>
-                Welcome to Happy Tails, where we believe every pet deserves the best nutrition to lead a happy, healthy life. 
-                Our passion for pets drives us to create premium, natural, 
-                and wholesome food products that cater to the unique needs of your beloved companions.
-            </p>
+            <h1 class="contentHeader">About Us<span class="arrow">&#9654;</span></h1>
+            <div class="contentPara">
+                <p>
+                    Welcome to Happy Tails, where we believe every pet deserves the best nutrition to lead a happy, healthy life. 
+                    Our passion for pets drives us to create premium, natural, 
+                    and wholesome food products that cater to the unique needs of your beloved companions.
+                </p>
+            </div>
         </div>
 
-        <div class="footerBar">
-            <footer>&copy; 2024 Happy Tails - Pet foods. All rights reserved.</footer>
+
+        <div class="subscribe">
+            <h1 class="contentHeader">Subscribe to our Newsletter<span class="arrow">&#9654;</span></h1>
+            <div class="contentPara">
+                <p>For tips and more information about our products and offers, subscribe to our Newsletter.</p>
+                <div class="container">
+                    <form action="subscribe">
+                        <div class="row">
+                            <label for="email" class="col-sm-4 col-form-label" id="emailLabel">Enter your Email ID</label>
+                            <div class="col">
+                                <input type="email" class="form-control" id="emailID" />
+                            </div>
+                            <button class="btn btn-primary">Subscribe</button>
+                        </div>                            
+                    </form>
+                </div>
+            </div>
         </div>
+
+        <div class="footerContainer">
+            <div class="copyright">
+                <div class="footer">
+                    <div class="contact">
+                        <h3>Our Contact</h3>
+                        <p>Phone: 123-456-789-0</p>
+                        <p>Email: info@happytails.com</p>
+                        <p>Address: Ludwig-Guttmann
+                            Straße 419, <br/>69123, Heidelberg</p>
+                    </div>
+                    
+                    <div class="legal">
+                        <h3>Legal</h3>
+                        <p><a href="./About page/about.html">Terms of Use</a></p>
+                        <p><a href="./About page/about.html">Privacy Policy</a></p>
+                        <p><a href="./About page/about.html">Copyright</a></p>
+                    </div>
+                    <div class="follow-us">
+                        <h3>Follow Us</h3>
+                        <p><a href="#">Like Us</a></p>
+                    </div>
+                </div>
+                <p id="footer">&copy; 2024 Happy Tails - Pet foods. All rights reserved.</p>
+            </div>
+        </div>
+        
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
