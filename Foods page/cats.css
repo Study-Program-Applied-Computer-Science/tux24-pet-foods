@@ -8,8 +8,8 @@ body {
 }
 
 .homeLogo{
-    width: 300px;
-    height: 50px;
+    width: 40px;
+    height: 60px;
     margin: 0px;
 }
 
@@ -164,10 +164,6 @@ a.btn:hover {
      
     .header .flex1{
         max-width: 600px;
-    }
-
-    .homeLogo{
-        max-width: 200px;
     }
 
     .flex1 button{
