@@ -38,7 +38,7 @@ body {
 }
 
 .flex1 button:hover {
-    background-color: goldenrod;
+    background-color: black;
     border-radius: 20px;
 }
 
@@ -88,25 +88,24 @@ h1 {
     text-align: center;
 }
 
+.catalogueOuter {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    padding: 30px;
+}
+
 .catalogue {
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 35px;
-}
-
-.catalogueOuter {
-    display: grid;
-    grid-template-columns: 0.5fr 3fr;
-    margin: 30px;
 }
 
 .card {
     width: 300px;
     height: 500px;
-    margin: 50px 0px;
 }
 
 .card:hover {
@@ -114,27 +113,16 @@ h1 {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.btn.btn-primary {
+a.btn {
     margin: 0 0 10px 0;
+    background-color: grey;
+    color: white;
 }
 
-.arrow {
-    float: right;
-    transform: rotate(-90deg);
-    transition: transform 0.3s;
-}
-
-.arrow-down {
-    transform: rotate(90deg);
-}
-
-.contentHeader {
-    cursor: pointer;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
-}
-
-.contentPara {
-    display: none;
+a.btn:hover {
+    margin: 0 0 10px 0;
+    background-color: black;
+    color: white;
 }
 
 .footerContainer {
@@ -165,6 +153,86 @@ h1 {
     text-align: center;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 768px) {
+    .header {
+      max-width: 768px;
+    }
 
+    .header.logoBackground{
+        background: url(../images/logo.png) no-repeat;
+    }
+     
+    .header .flex1{
+        max-width: 600px;
+    }
+
+    .homeLogo{
+        max-width: 200px;
+    }
+
+    .flex1 button{
+        max-width: 100px;
+        width: 100px;
+    }
+
+    .search-input{
+        max-width: 250px;
+    }
+
+    .search-container i{
+        display: none;
+    }
+
+    .header .flex1{
+        max-width: 600px;
+    }
+
+    .header a .button{
+        max-width: 50px;
+    }
+
+    .navBar{
+        max-width: 768px;
+    }
+
+    .catalogueOuter {
+        display: flex;
+        gap: 100px;
+    }
+
+    .catalogue {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .filters {
+        max-width: 100px;
+        font-size: 0.75rem;
+    }
+
+    .filters h3 {
+        font-size: 0.9rem;
+    }
+
+    .card h5 {
+        font-size: 0.95rem;
+    }
+
+    .card {
+        width: 200px;
+        height: 425px;
+        font-size: 0.75rem;
+    }
+
+    .card img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+   .footerContainer {
+        max-width: 768px;
+        margin: 0px;
+        padding: 10px;
+   }
 }
