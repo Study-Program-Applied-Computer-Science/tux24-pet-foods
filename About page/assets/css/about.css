@@ -38,7 +38,7 @@ body {
 }
 
 .flex1 button:hover {
-    background-color: goldenrod;
+    background-color: black;
     border-radius: 20px;
 }
 
@@ -84,14 +84,12 @@ body {
     border-radius: 2px;
 }
 
-.aboutUs {
+.aboutUs, .subscribe, .legalInfo {
     padding: 30px;
-    text-wrap: wrap;
 }
 
-.subscribe {
-    padding: 30px;
-    text-wrap: wrap;
+.contentPara .container {
+    margin: 0 auto;
 }
 
 .arrow {
@@ -106,15 +104,53 @@ body {
 
 .contentHeader {
     cursor: pointer;
+}
+
+.headerBorder {
     border-bottom: 1px solid rgba(0, 0, 0, 0.75);
 }
 
 .contentPara {
     display: none;
+    text-align: justify;
+}
+
+.contentPara div {
+    margin: 10px 0;
 }
 
 .container {
     text-align: center;
+}
+
+.container form {
+    padding: 5px;
+}
+
+.container form div {
+    margin: 5px;
+}
+
+li span.bold {
+    font-weight: bold;
+}
+
+#emailId {
+    text-decoration: underline;
+    color: rgb(9, 33, 94);
+}
+
+.btn.submitBtn {
+    background-color: grey; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    margin: 0 auto;
+}
+
+.btn.submitBtn:hover {
+    background-color: black;
+    color: white;
 }
 
 .footerContainer {
@@ -143,4 +179,78 @@ body {
 
 #footer {
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header {
+      max-width: 768px;
+    }
+
+    .header.logoBackground{
+        background: url(../images/logo.png) no-repeat;
+    }
+     
+    .header .flex1{
+        max-width: 600px;
+    }
+
+    .homeLogo{
+        max-width: 200px;
+    }
+
+    .flex1 button{
+        max-width: 100px;
+        width: 100px;
+    }
+
+    .search-input{
+        max-width: 250px;
+    }
+
+    .search-container i{
+        display: none;
+    }
+
+    .header .flex1{
+        max-width: 600px;
+    }
+
+    .header a .button{
+        max-width: 50px;
+    }
+
+    .navBar{
+        max-width: 768px;
+    }
+
+    .catalogueOuter {
+        display: flex;
+        gap: 100px;
+    }
+
+    .catalogue {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .filters {
+        max-width: 100px;
+    }
+
+    .card {
+        width: 200px;
+        height: 425px;
+    }
+
+    .card img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+   .footerContainer {
+        max-width: 768px;
+        margin: 0px;
+        padding: 10px;
+   }
 }
