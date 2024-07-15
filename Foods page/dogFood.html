@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,19 +7,58 @@
     <link rel="stylesheet" href="dogFood.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></index></li>
-                <li><a href="../Foods page/foods.html">Foods</a></li>
-                <li><a href="../About page/about.html">About</a><about class="html"></about></li>
-            </ul>
-            
-        </nav>
-    </header>
+<<<<<<< HEAD
+    
+
+<div class="navbar">
+    
+    <div class="nav-item">
+    <a href="index.html" style="margin-left: 8px; text-decoration: none;">Home</a>
+    </div>
+    <div class="nav-item">
+        <a href="Foods page/foods.html" style="margin-left: 8px; text-decoration: none;">Foods</a>
+    </div>
+
+    <div class="nav-item">
+    <a href="About page/about.html" style="margin-left: 8px; text-decoration: none;">About</a>  
+    </div>
+
+</div>
+=======
+    <div class="header">
+        <div class="logobackground">  
+        <div class="flex1">
+        <img class="homelogo" src="dog img/puppy_ckn.png" alt="happy tails logo">
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+        <input type="search" class="search-input" placeholder="Search items">
+    </div>
+
+    
+        </div>
+    </div>
+
+    <div class="navbar">
+    
+        <div class="nav-item">
+        <a href="../index.html" style="margin-left: 8px; text-decoration: none;">Home</a>
+        </div>
+        <div class="nav-item">
+            <a href="foods.html" style="margin-left: 8px; text-decoration: none;">Foods</a>
+        </div>
+    
+        <div class="nav-item">
+        <a href="../About page/about.html" style="margin-left: 8px; text-decoration: none;">About</a>  
+        </div>
+    
+    </div>
+    </div>
+    </div>
+>>>>>>> a3235e8d8411bfc1b7e1ea5bfd80da4c849060c4
     
     <div class="container">
-        <aside class="sidebar">
+        
+        <div class="sidebar">
             <div class="filters">
                
                 
@@ -28,84 +67,153 @@
                 <label>Wet Food<input type="checkbox" checked> </label>
                 <label>Frozen Food<input type="checkbox" checked> </label>
                
-                
+                <br>
                 <h3>Price range</h3>
-                <input type="range" min="0" max="100" value="50">
+                <input type="range" min="0" max="100" >
                 <div>$0-100</div>
-                
+                <br>
                 <h3>Brands</h3>
                 <label>Blue Buffalo<input type="checkbox" checked> </label>
                 <label>Royal Canin<input type="checkbox" checked> </label>
+
+                <br>
+            
+                <h2><a href="cats.html">Cats Food</a></dogFood></h2>
                 
                 
                 
                 
             </div>
-        </aside>
+        </div>
         
         <main class="main-content">
-            <div class="search-bar">
-                <input type="text" placeholder="Search">
-                <button>"search"</button>
-            </div>
-            
-            
+          
+
             <div class="product">
                 <div class="item">
                     <img src="dog img/dryChkn.png"/>
-                    <button class="buyButton">Buy Now</button>
+                    <div class="quantity-container">
+                        <button class="quantity-button" onclick="decrementQuantity(this)">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-button" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                    <button class="buyButton">Add to Cart</button>
                     <p class="price">€ 3,09</p>
                     <p class="name">Blue Buffalo Original</p>
                 </div>
             
                 <div class="item">
                     <img src="dog img/puppy_ckn.png"/>
-                    <button class="buyButton">Buy Now</button>
+                    <div class="quantity-container">
+                        <button class="quantity-button" onclick="decrementQuantity(this)">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-button" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                    <button class="buyButton">Add to Cart</button>
                     <p class="price">€ 5,69</p>
                     <p class="name">Blue Buffalo puppy chicken</p>
                 </div>
             
                 <div class="item">
                     <img src="dog img/blu_dog_wet_adult_beef.png"/>
-                    <button class="buyButton">Buy Now</button>
+                    <div class="quantity-container">
+                        <button class="quantity-button" onclick="decrementQuantity(this)">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-button" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                    <button class="buyButton">Add to Cart</button>
                     <p class="price">€ 2,49</p>
                     <p class="name">Blue Buffalo beef</p>
                 </div>
             
                 <div class="item">
                     <img src="dog img/premium blend.png"/>
-                    <button class="buyButton">Buy Now</button>
+                    <div class="quantity-container">
+                        <button class="quantity-button" onclick="decrementQuantity(this)">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-button" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                    <button class="buyButton">Add to Cart</button>
                     <p class="price">€ 6,49</p>
                     <p class="name">Blue Buffalo Premium blend</p>
                 </div>
             
                 <div class="item">
                     <img src="dog img/relax_canin.jfif"/>
-                    <button class="buyButton">Buy Now</button>
+                    <div class="quantity-container">
+                        <button class="quantity-button" onclick="decrementQuantity(this)">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-button" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                    <button class="buyButton">Add to Cart</button>
                     <p class="price">€ 4,49</p>
                     <p class="name">Royal Canin Relax</p>
                 </div>
             
                 <div class="item">
                     <img src="dog img/royal_golden.png"/>
-                    <button class="buyButton">Buy Now</button>
+                    <div class="quantity-container">
+                        <button class="quantity-button" onclick="decrementQuantity(this)">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-button" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                    <button class="buyButton">Add to Cart</button>
                     <p class="price">€ 4,19</p>
                     <p class="name">Royal Canin Golden food</p>
                 </div>
             
                 <div class="item">
                     <img src="dog img/royal_fam.jfif"/>
-                    <button class="buyButton">Buy Now</button>
+                    <div class="quantity-container">
+                        <button class="quantity-button" onclick="decrementQuantity(this)">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-button" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                    <button class="buyButton">Add to Cart</button>
                     <p class="price">€ 2,69</p>
                     <p class="name">Royal Canin Fam</p>
                 </div>
             
                 <div class="item">
                     <img src="dog img/dalmatian_canin.png"/>
-                    <button class="buyButton">Buy Now</button>
+                    <div class="quantity-container">
+                        <button class="quantity-button" onclick="decrementQuantity(this)">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-button" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                    <button class="buyButton">Add to Cart</button>
                     <p class="price">€ 3,79</p>
                     <p class="name">Royal Canin Premium</p>
                 </div>
+
+               </div>
+                
+                 </div>
+
+
+                 <div  class="footercontainer">
+     
+                    <div class="footer">
+                        <div class="contact">
+                          <h3>Our Contact</h3>
+                          <p>Phone: 123-456-789-0</p>
+                          <p>Email: info@happytails.com</p>
+                          <p>Address: Ludwig Guttmannstrasse, Heidelberg, 69123</p>
+                        </div>
+                        <div class="legal">
+                          <h3>Legal</h3>
+                          <p><a href="./About page/about.html">Terms of Use</a></p>
+                          <p><a href="./About page/about.html">Privacy Policy</a></p>
+                          <p><a href="./About page/about.html">Copyright</a></p>
+                        </div>
+                        <div class="follow-us">
+                          <h3>Follow Us</h3>
+                          <p><a href="#">Like Us</a></p>
+                        </div>
+                 <div class="copyright">Copyright © 2024 Happy Tails®. All rights reserved, Incorporated</div>
+                 </div>
+
+                
             
             
             
