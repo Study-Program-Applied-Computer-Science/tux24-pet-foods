@@ -18,13 +18,12 @@ body {
  .font{
     font-family: 'Happy Tails New', cursive;
     text-align: center;
-    background-color: #fff;
  }
 
 .homelogo{
-        width: 40px;
-        height: 60px;
-        margin: 5px;
+        width: 300px;
+        height: 50px;
+        margin: 0px;
     }
 
 .header {
@@ -68,6 +67,11 @@ body {
 
 .flex1 img {
     background: transparent;
+}
+
+.homelogo{
+    width: 300px;
+    height: 50px;
 }
 
 .flex1 input {

@@ -1,3 +1,12 @@
+@font-face { 
+    font-family: 'Happy Tails New'; 
+    src: 
+        url('../HappyTAils.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
 body {
     margin: 0px; 
     font-family: Arial, sans-serif;
@@ -12,6 +21,12 @@ body {
         background-color: white;
         border-radius: 10px;
     }
+
+    .font{
+        font-family: 'Happy Tails New', cursive;
+        text-align: center;
+
+     }
     
     
 
