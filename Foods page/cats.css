@@ -98,8 +98,7 @@ h1 {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 35px;
 }
 
@@ -146,12 +145,12 @@ a.btn:hover {
     background: #2d2f31;
     border-top: 1px solid #3e4143;
     color: #fff;
-    padding: 2.4rem 2.4rem 150px 2.4rem;
+    padding: 25px 50px;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 12px;
     gap: 100px;
 }
@@ -168,6 +167,7 @@ a.btn:hover {
 
 #footer {
     text-align: center;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
