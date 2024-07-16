@@ -1,10 +1,25 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
+
+@font-face { 
+    font-family: 'Happy Tails New'; 
+    src: 
+        url('./HappyTAils.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
  
 body {
         height: 100%;
         margin: 0;
         font-family: Arial, sans-serif;
     }
+
+ .font{
+    font-family: 'Happy Tails New', cursive;
+    text-align: center;
+    background-color: #fff;
+ }
 
 .homelogo{
         width: 300px;
@@ -92,6 +107,7 @@ body {
     width: 100%;
     padding: 10px 10px 10px 40px; 
     font-size: 16px;
+    border: 2px solid black;
 }
 
 .search-icon {
