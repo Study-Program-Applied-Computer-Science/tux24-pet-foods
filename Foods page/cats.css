@@ -98,19 +98,36 @@ h1 {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 250px 250px 250px 250px;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 35px;
 }
 
 .card {
-    width: 300px;
+    width: 250px;
     height: 500px;
 }
 
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.buy {
+    margin: 10px auto;
+}
+
+input.quantity-input {
+    padding: 2px;
+    text-align: center;
+    width: 30px;
+    border: 1px solid grey;
+}
+
+.btn.quantity-button {
+    background-color: grey;
+    padding: 5px;
+    margin: 0;
 }
 
 a.btn {
