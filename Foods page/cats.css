@@ -8,8 +8,8 @@ body {
 }
 
 .homeLogo{
-    width: 300px;
-    height: 50px;
+    width: 40px;
+    height: 60px;
     margin: 0px;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .flex1 input {
-    width: 400px;
+    max-width: 400px;
     height: 12px;
     padding: 13px;
 }
@@ -98,19 +98,35 @@ h1 {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 35px;
 }
 
 .card {
-    width: 300px;
+    width: 250px;
     height: 500px;
 }
 
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.buy {
+    margin: 10px auto;
+}
+
+input.quantity-input {
+    padding: 2px;
+    text-align: center;
+    width: 30px;
+    border: 1px solid grey;
+}
+
+.btn.quantity-button {
+    background-color: grey;
+    padding: 5px;
+    margin: 0;
 }
 
 a.btn {
@@ -129,12 +145,12 @@ a.btn:hover {
     background: #2d2f31;
     border-top: 1px solid #3e4143;
     color: #fff;
-    padding: 2.4rem 2.4rem 150px 2.4rem;
+    padding: 25px 50px;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 12px;
     gap: 100px;
 }
@@ -151,6 +167,7 @@ a.btn:hover {
 
 #footer {
     text-align: center;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -164,10 +181,6 @@ a.btn:hover {
      
     .header .flex1{
         max-width: 600px;
-    }
-
-    .homeLogo{
-        max-width: 200px;
     }
 
     .flex1 button{
@@ -192,7 +205,7 @@ a.btn:hover {
     }
 
     .navBar{
-        width: 768px;
+        max-width: 768px;
     }
 
     .catalogueOuter {
@@ -219,13 +232,13 @@ a.btn:hover {
     }
 
     .card {
-        width: 200px;
+        max-width: 200px;
         height: 425px;
         font-size: 0.75rem;
     }
 
     .card img {
-        width: 200px;
+        max-width: 200px;
         height: 200px;
         object-fit: cover;
     }

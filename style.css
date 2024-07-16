@@ -22,9 +22,9 @@ body {
  }
 
 .homelogo{
-        width: 300px;
-        height: 50px;
-        margin: 0px;
+        width: 40px;
+        height: 60px;
+        margin: 5px;
     }
 
 .header {
@@ -68,11 +68,6 @@ body {
 
 .flex1 img {
     background: transparent;
-}
-
-.homelogo{
-    width: 300px;
-    height: 50px;
 }
 
 .flex1 input {
