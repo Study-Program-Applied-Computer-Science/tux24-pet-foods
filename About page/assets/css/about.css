@@ -374,6 +374,10 @@ li span.bold {
         display: none;
     }
 
+    h5.responsiveText {
+        display: block;    
+    }
+
     p.responsiveText {
         display: block;
     }
