@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css); 
+=======
 @font-face { 
     font-family: 'Happy Tails New'; 
     src: 
@@ -6,6 +9,7 @@
     font-weight: normal; 
     font-style: normal; 
 }
+>>>>>>> 9bbe09afce1e506c393c35332579d863f05074c5
 
 body {
     margin: 0px; 
@@ -13,10 +17,11 @@ body {
 }
 
 .homelogo{
-        width: 100px;
-        height: 100px;
-  
-    }
+    width: 300px;
+    height: 50px;
+    margin: 0px;
+
+}
     .header {
         background-color: white;
         border-radius: 10px;
@@ -39,45 +44,7 @@ body {
     margin: 0px;
 
 }
-.quantity-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
 
-.quantity-button {
-    background-color: #ddd;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.quantity-input {
-    width: 45px;
-    text-align: center;
-    border: 1px solid #ccc;
-    margin: 1px;
-}
-.search-container {
-    position: relative;
-    width: 300px;
-}
-
-.search-input {
-    width: 100%;
-    padding: 10px 10px 10px 40px; 
-    font-size: 16px;
-}
-
-.search-icon {
-    position: absolute;
-    top: 50%;
-    left: 360px;
-    transform: translateY(-50%);
-    color: #888;
-}
 .nav-item {
     padding: 14px 20px;
 }
@@ -98,6 +65,26 @@ body {
     align-items: center;
     gap: 15%;
     flex-direction: row;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-input {
+    width: 400px;
+    height: 30px;
+    padding: 10px 10px 10px 40px; 
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 360px;
+    transform: translateY(-50%);
+    color: #888;
 }
 
 .container {
@@ -184,6 +171,27 @@ body {
     text-align: right;
     margin-bottom: 20px;
 }
+.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.quantity-button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quantity-input {
+    width: 45px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 1px;
+}
 
 
 
@@ -195,7 +203,7 @@ body {
     padding-left: 2.4rem;
     padding-right: 2.4rem;
     padding-top: 2.4rem;
-    padding-bottom: 150px;
+    padding-bottom: 3rem;
 }
 
 .footer{
@@ -221,7 +229,7 @@ body {
   .copyright {
     width: 100%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   .Header2{
@@ -237,3 +245,76 @@ body {
   a:hover{
     color: blueviolet;
   }
+
+
+
+  /* responsive screen */
+
+  @media (max-width: 768px){
+         .header {
+    max-width: 768px;
+  }
+
+  .header.logobackground{
+      background: url(../images/logo.png) no-repeat;
+  }
+   
+  .header .flex1{
+      max-width: 600px;
+  }
+
+  .homelogo{
+      max-width: 200px;
+  }
+
+  .flex1 button{
+  max-width: 100px;
+  width: 100px;
+  }
+
+    .search-input {
+        width: 300px;
+        height: 30px;
+        padding: 10px 10px 10px 40px; 
+        font-size: 16px;
+    }
+
+    .item {
+        background-color: white;
+        border-radius: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .item img {
+        max-width: 70%;
+        border-radius: 15px 15px 0 0;
+     
+    }
+
+    .quantity-input {
+        width: 45px;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin: 1px;
+    }
+    
+    .search-icon {
+        position: auto;
+        top: 50%;
+        left: 360px;
+        transform: translateY(-50%);
+        color: #888;
+    }
+
+  }
+
+
+
