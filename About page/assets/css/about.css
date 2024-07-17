@@ -9,71 +9,16 @@
     font-style: normal; 
 } 
 
-body {
-    margin: 0px;
-    background-color: #fff;
-    font-family: sans-serif;
-    position: relative;
+.header {
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 0 4px 0;
 }
 
 .homeLogo{
     width: 150px;
     height: 50px;
     margin: 0px;
-}
-
-.header {
-    background-color: white;
-    border-radius: 10px;
-}
-
-.flex1 {
-    display: flex;
-    align-items: center;
-    gap: 15%;
-    flex-direction: row;
-    margin: 0 0 4px 0;
-}
-
-.flex1 input {
-    width: 400px;
-    height: 12px;
-    padding: 13px;
-}
-
-.flex1 button {
-    padding: 10px 20px;
-    background-color: grey;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 1s ease;
-    border-radius: 10px;
-    width: 90px;
-}
-
-.flex1 button:hover {
-    background-color: black;
-    border-radius: 20px;
-}
-
-.search-container {
-    position: relative;
-    width: 300px;
-}
-
-.search-input {
-    width: 100%;
-    padding: 10px 10px 10px 40px; 
-    font-size: 16px;
-}
-
-.search-icon {
-    position: absolute;
-    top: 50%;
-    left: 360px;
-    transform: translateY(-50%);
-    color: #888;
 }
 
 .navBar {
@@ -84,7 +29,7 @@ body {
 }
 
 .nav-item {
-    padding: 5px 0;
+    padding: 14px 20px;
     position: relative;
 }
 
@@ -102,7 +47,6 @@ body {
     position: relative;
     padding: 5px 0;
 }
-
 
 .nav-link::after {
     content: '';
@@ -129,6 +73,61 @@ body {
     border-radius: 2px;
 }
 
+.flex1 {
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    flex-direction: row;
+}
+
+
+.flex1 img {
+    background: transparent;
+}
+
+.flex1 input {
+    width: 400px;
+    height: 12px;
+    padding: 13px;
+}
+
+.flex1 button:hover {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.flex1 button {
+    padding: 10px 20px; 
+    background-color: grey; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    border-radius: 10px;
+    /* margin-right: 50px; */
+    width: 90px;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; 
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 360px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
 .dropDown a.option {
     text-decoration: none;
     padding: 10px 0;
@@ -147,14 +146,76 @@ body {
     display: block;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 5px 0;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    /* visibility: hidden; */
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after,
+.nav-link.active::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
 img.bannerImage {
     width: 100%;
     margin: 0 auto;
 }
 
-.aboutUs, .subscribe, .legalInfo {
+.aboutUs, .subscribe, .legalInfo, .theTeam {
     padding: 30px;
     text-align: justify;
+}
+
+.theTeam h1 {
+    margin: 0 0 20px 0;
+}
+
+.memberGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.memberGrid .card {
+    padding: 5px;
+}
+
+.memberGrid .card h4 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.memberGrid .card img {
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50%;
+}
+
+h5.responsiveText {
+    display: none;    
+}
+
+p.responsiveText {
+    display: none;
 }
 
 .contentPara .container {
@@ -163,12 +224,12 @@ img.bannerImage {
 
 .arrow {
     float: right;
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     transition: transform 0.3s;
 }
 
 .arrow-down {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
 
 .contentHeader {
@@ -294,8 +355,37 @@ li span.bold {
         padding: 10px;
    }
 
-   .aboutUs, .legalInfo, .subscribe{
+   .aboutUs, .legalInfo, .subscribe, .theTeam{
         padding: 0px 50px;
         text-align: justify;
    }
+
+   .memberGrid {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .memberGrid .card {
+        text-align: center;
+    }
+
+    .card ul{
+        display: none;
+    }
+
+    h5.responsiveText {
+        display: block;    
+    }
+
+    p.responsiveText {
+        display: block;
+    }
+
+    .memberGrid .card img {
+        margin: 0 auto;
+        border-radius: 50%;
+        object-fit: cover;
+        width: 30%;
+    }
 }
