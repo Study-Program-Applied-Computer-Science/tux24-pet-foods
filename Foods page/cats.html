@@ -43,21 +43,26 @@
         <div class="catalogueOuter">
 
             <div class="filters">
-                <h3>Type of Foods</h3>
-                    <div><label><input type="checkbox" checked> Dry Food</label></div>
-                    <div><label><input type="checkbox" checked> Wet Food</label></div>
-                    <div><input type="checkbox" checked> <label>Frozen Food</label></div>
-                                    
-                <h3>Price range</h3>
+                <div class="filter">
+                    <h3>Type of Foods</h3>
+                        <li><label><input type="checkbox" checked/> Dry Food</label></li>
+                        <li><label><input type="checkbox" checked/> Wet Food</label></li>
+                        <li><label><input type="checkbox" checked/> Frozen Food</label></li>
+                </div>
+                
+                <div class="filter">
+                    <h3>Price range</h3>
                     <input type="range" min="0" max="100" value="50">
                     <div>$0-100</div>
-                        
-                <h3>Brands</h3>
-                    <div><label><input type="checkbox" checked> Felix</label></div>
-                    <div><label><input type="checkbox" checked> Purina</label></div>
-                    <div><label><input type="checkbox" checked> Whiskas</label></div>
+                </div>
 
-                <h2><a id="redirect" href="dogFood.html">Dog Foods</a></dogFood></h2>            
+                <div class="filter">
+                    <h3>Brands</h3>
+                    <li><label><input type="checkbox" checked> Felix</label></li>
+                    <li><label><input type="checkbox" checked> Purina</label></li>
+                    <li><label><input type="checkbox" checked> Whiskas</label></li>
+                </div>
+                <a href="./dogFood.html" class="redirect btn">Dog Foods</a>     
             </div>
 
             <div class="catalogue">
