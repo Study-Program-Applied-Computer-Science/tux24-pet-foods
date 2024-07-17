@@ -210,6 +210,10 @@ img.bannerImage {
     width: 50%;
 }
 
+h5.responsiveText {
+    display: none;    
+}
+
 p.responsiveText {
     display: none;
 }
