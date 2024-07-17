@@ -219,7 +219,7 @@ img.bannerImage {
     margin: 0 auto;
     object-fit: cover;
     width: 50%;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 h5.responsiveText {
