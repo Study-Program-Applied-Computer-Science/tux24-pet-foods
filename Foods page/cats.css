@@ -9,8 +9,6 @@
     font-style: normal; 
 }
 
-
-
 body {
     margin: 0px;
     background-color: #fff;
@@ -23,11 +21,6 @@ body {
     height: 50px;
     margin: 0px;
 }
-
-.font{
-    font-family: 'Happy Tails New', cursive;
-    text-align: center;
- }
 
 .flex1 {
     display: flex;
@@ -86,6 +79,7 @@ body {
 
 .nav-item {
     padding: 14px 20px;
+    position: relative;
 }
 
 .nav-item a {
@@ -100,6 +94,23 @@ body {
     border-radius: 2px;
 }
 
+.dropDown a.option {
+    text-decoration: none;
+}
+
+.dropDown {
+    display: none;
+    position: absolute;
+    left: -20px;
+    z-index: 1;
+    background-color: #3e4143;
+    width: 150%;
+}
+
+.nav-item:hover .dropDown {
+    display: block;
+}
+
 h1 {
     text-align: center;
 }
@@ -110,17 +121,42 @@ h1 {
     padding: 30px;
 }
 
+.filter {
+    margin: 10px 0;
+}
+
+.filter li {
+    list-style: none;
+}
+
+.filter li label {
+    margin: 0;
+}
+
 .catalogue {
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 35px;
+    gap: 20px;
+}
+
+.catalogue .card {
+    border-radius: 40px;
+    padding: 10px;
 }
 
 .card {
-    width: 250px;
-    height: 500px;
+    height: 575px;
+}
+
+p.card-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.card img {
+    border-radius: 40px;
 }
 
 .card:hover {
@@ -132,29 +168,35 @@ h1 {
     margin: 10px auto;
 }
 
-input.quantity-input {
-    padding: 2px;
-    text-align: center;
-    width: 30px;
-    border: 1px solid grey;
+.btn.quantity-button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-.btn.quantity-button {
-    background-color: grey;
-    padding: 5px;
-    margin: 0;
-    color: white;
+input.quantity-input {
+    width: 45px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 1px;
+}
+
+.card-body {
+    text-align: center;
 }
 
 a.btn {
-    margin: 0 0 10px 0;
-    background-color: grey;
+    margin: 0 40px 10px 35px;
+    border-radius: 30px;
     color: white;
+    background-color: #ff4500;
 }
 
 a.btn:hover {
-    margin: 0 0 10px 0;
-    background-color: black;
+    background-color: #1f5586;
     color: white;
 }
 
@@ -233,6 +275,7 @@ a.btn:hover {
     .catalogue {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 
     .filters {
@@ -244,13 +287,27 @@ a.btn:hover {
         font-size: 0.9rem;
     }
 
+    a.redirect.btn {
+        margin: 20px 0;
+        font-size: 0.8rem;
+    }    
+
     .card h5 {
         font-size: 0.95rem;
     }
 
+    .catalogue .card {
+        border-radius: 40px;
+    }
+
+    #redirect {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+    }
+
     .card {
-        max-width: 200px;
-        height: 425px;
+        height: 500px;
         font-size: 0.75rem;
     }
 
@@ -258,8 +315,21 @@ a.btn:hover {
         max-width: 200px;
         height: 200px;
         object-fit: cover;
+        border-radius: 40px;
     }
 
+    p.card-text {
+        font-size: 0.8rem;
+    }
+
+    a.btn {
+        margin: 0 20px 10px 15px;
+        border-radius: 30px;
+        color: white;
+        background-color: #ff4500;
+        font-size: 0.8rem;
+    }
+    
    .footerContainer {
         max-width: 768px;
         margin: 0px;

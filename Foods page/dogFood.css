@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css); 
-=======
 @font-face { 
     font-family: 'Happy Tails New'; 
     src: 
@@ -9,7 +8,6 @@
     font-weight: normal; 
     font-style: normal; 
 }
->>>>>>> 9bbe09afce1e506c393c35332579d863f05074c5
 
 body {
     margin: 0px; 
@@ -17,7 +15,7 @@ body {
 }
 
 .homelogo{
-    width: 300px;
+    width: 150px;
     height: 50px;
     margin: 0px;
 
@@ -77,6 +75,7 @@ body {
     height: 30px;
     padding: 10px 10px 10px 40px; 
     font-size: 16px;
+    border: 2px solid black;
 }
 
 .search-icon {
@@ -273,10 +272,9 @@ body {
   }
 
     .search-input {
-        width: 300px;
-        height: 30px;
-        padding: 10px 10px 10px 40px; 
-        font-size: 16px;
+        max-width: 250px;
+        padding: 13px;
+        border: 2px solid black;
     }
 
     .item {
@@ -307,11 +305,7 @@ body {
     }
     
     .search-icon {
-        position: auto;
-        top: 50%;
-        left: 360px;
-        transform: translateY(-50%);
-        color: #888;
+      display: none;
     }
 
   }
