@@ -35,7 +35,7 @@ https://github.com/Study-Program-Applied-Computer-Science/tux24-pet-foods.git
 # Technology Stack Used:
 HTML, CSS, Javascript, Vanilla.js, Bootstrap.
 
-# Color Therory:
+# Color Theory:
 We have used different colors in our website following the css color psychology principles.
 Here are some explanations about the colors that we have used in our pages -
 1.Green - Healthy
