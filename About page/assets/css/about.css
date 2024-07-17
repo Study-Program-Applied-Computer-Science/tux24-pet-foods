@@ -1,5 +1,14 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css); 
 
+@font-face { 
+    font-family: 'Happy Tails New'; 
+    src: 
+        url('../fonts/HappyTAils.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+
 body {
     margin: 0px;
     background-color: #fff;
@@ -8,10 +17,15 @@ body {
 }
 
 .homeLogo{
-    width: 300px;
+    width: 150px;
     height: 50px;
     margin: 0px;
 }
+
+.font{
+    font-family: 'Happy Tails New', cursive;
+    text-align: center;
+ }
 
 .flex1 {
     display: flex;
@@ -86,6 +100,7 @@ body {
 
 .aboutUs, .subscribe, .legalInfo {
     padding: 30px;
+    text-align: justify;
 }
 
 .contentPara .container {
@@ -135,7 +150,7 @@ li span.bold {
     font-weight: bold;
 }
 
-#emailId {
+#contactId {
     text-decoration: underline;
     color: rgb(9, 33, 94);
 }
@@ -157,12 +172,16 @@ li span.bold {
     background: #2d2f31;
     border-top: 1px solid #3e4143;
     color: #fff;
-    padding: 2.4rem 2.4rem 150px 2.4rem;
+    padding: 25px 50px;
+}
+
+.col input {
+    width: 75%;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 12px;
     gap: 100px;
 }
@@ -179,15 +198,12 @@ li span.bold {
 
 #footer {
     text-align: center;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
     .header {
       max-width: 768px;
-    }
-
-    .header.logoBackground{
-        background: url(../images/logo.png) no-repeat;
     }
      
     .header .flex1{
@@ -196,11 +212,6 @@ li span.bold {
 
     .homeLogo{
         max-width: 200px;
-    }
-
-    .flex1 button{
-        max-width: 100px;
-        width: 100px;
     }
 
     .search-input{
@@ -223,34 +234,14 @@ li span.bold {
         max-width: 768px;
     }
 
-    .catalogueOuter {
-        display: flex;
-        gap: 100px;
-    }
-
-    .catalogue {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .filters {
-        max-width: 100px;
-    }
-
-    .card {
-        width: 200px;
-        height: 425px;
-    }
-
-    .card img {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-    }
-
    .footerContainer {
         max-width: 768px;
         margin: 0px;
         padding: 10px;
+   }
+
+   .aboutUs, .legalInfo, .subscribe{
+        padding: 0px 50px;
+        text-align: justify;
    }
 }
