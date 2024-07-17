@@ -98,6 +98,12 @@ body {
     border-radius: 2px;
 }
 
+img.bannerImage {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .aboutUs, .subscribe, .legalInfo {
     padding: 30px;
     text-align: justify;
