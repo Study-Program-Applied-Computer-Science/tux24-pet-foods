@@ -238,14 +238,11 @@ body {
 
 
 
- .footercontainer {
+.footercontainer {
     background: #2d2f31;
     border-top: 1px solid #3e4143;
     color: #fff;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
-    padding-top: 2.4rem;
-    padding-bottom: 3rem;
+    padding: 25px 50px;
 }
 
 .footer{
@@ -271,7 +268,7 @@ body {
   .copyright {
     width: 100%;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 15px;
   }
 
   .Header2{
