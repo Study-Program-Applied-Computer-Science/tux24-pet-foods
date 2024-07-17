@@ -33,7 +33,7 @@ body {
     flex-direction: row;
     background-color: #3e4143;
     justify-content: center;
-    margin: 0px;
+    margin: 0 0 4px 0;
 
 }
 
