@@ -62,7 +62,7 @@ body {
     padding: 5px 0;
 }
 
-/* Underline effect */
+
 .nav-link::after {
     content: '';
     position: absolute;
