@@ -125,6 +125,7 @@ body {
 
 .dropDown a.option {
     text-decoration: none;
+    padding: 10px 0;
 }
 
 .dropDown {

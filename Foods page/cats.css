@@ -96,6 +96,7 @@ body {
 
 .dropDown a.option {
     text-decoration: none;
+    padding: 10px 0;
 }
 
 .dropDown {
@@ -111,8 +112,9 @@ body {
     display: block;
 }
 
-h1 {
+h1.title {
     text-align: center;
+    margin: 10px 0;
 }
 
 .catalogueOuter {

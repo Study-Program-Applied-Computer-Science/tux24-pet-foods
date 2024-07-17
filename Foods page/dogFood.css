@@ -24,12 +24,6 @@ body {
         background-color: white;
         border-radius: 10px;
     }
-
-    .font{
-        font-family: 'Happy Tails New', cursive;
-        text-align: center;
-
-     }
     
     
 
@@ -45,6 +39,7 @@ body {
 
 .nav-item {
     padding: 14px 20px;
+    position: relative;
 }
 
 .nav-item a {
@@ -58,6 +53,25 @@ body {
     background-color: goldenrod;
     border-radius: 2px;
 }
+
+.dropDown a.option {
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.dropDown {
+    display: none;
+    position: absolute;
+    left: -20px;
+    z-index: 1;
+    background-color: #3e4143;
+    width: 150%;
+}
+
+.nav-item:hover .dropDown {
+    display: block;
+}
+
 .flex1 {
     display: flex;
     align-items: center;
