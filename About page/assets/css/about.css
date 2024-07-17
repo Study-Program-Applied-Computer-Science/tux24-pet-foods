@@ -154,7 +154,6 @@
     padding: 5px 0;
 }
 
-
 .nav-link::after {
     content: '';
     position: absolute;
@@ -180,9 +179,39 @@ img.bannerImage {
     margin: 0 auto;
 }
 
-.aboutUs, .subscribe, .legalInfo {
+.aboutUs, .subscribe, .legalInfo, .theTeam {
     padding: 30px;
     text-align: justify;
+}
+
+.theTeam h1 {
+    margin: 0 0 20px 0;
+}
+
+.memberGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.memberGrid .card {
+    padding: 5px;
+}
+
+.memberGrid .card h4 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.memberGrid .card img {
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50%;
+}
+
+p.responsiveText {
+    display: none;
 }
 
 .contentPara .container {
@@ -191,12 +220,12 @@ img.bannerImage {
 
 .arrow {
     float: right;
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     transition: transform 0.3s;
 }
 
 .arrow-down {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
 
 .contentHeader {
@@ -322,8 +351,33 @@ li span.bold {
         padding: 10px;
    }
 
-   .aboutUs, .legalInfo, .subscribe{
+   .aboutUs, .legalInfo, .subscribe, .theTeam{
         padding: 0px 50px;
         text-align: justify;
    }
+
+   .memberGrid {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .memberGrid .card {
+        text-align: center;
+    }
+
+    .card ul{
+        display: none;
+    }
+
+    p.responsiveText {
+        display: block;
+    }
+
+    .memberGrid .card img {
+        margin: 0 auto;
+        border-radius: 50%;
+        object-fit: cover;
+        width: 30%;
+    }
 }
