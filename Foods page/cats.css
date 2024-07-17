@@ -9,8 +9,6 @@
     font-style: normal; 
 }
 
-
-
 body {
     margin: 0px;
     background-color: #fff;
@@ -23,11 +21,6 @@ body {
     height: 50px;
     margin: 0px;
 }
-
-.font{
-    font-family: 'Happy Tails New', cursive;
-    text-align: center;
- }
 
 .flex1 {
     display: flex;
@@ -86,6 +79,7 @@ body {
 
 .nav-item {
     padding: 14px 20px;
+    position: relative;
 }
 
 .nav-item a {
@@ -98,6 +92,23 @@ body {
 .nav-item a:hover {
     background-color: goldenrod;
     border-radius: 2px;
+}
+
+.dropDown a.option {
+    text-decoration: none;
+}
+
+.dropDown {
+    display: none;
+    position: absolute;
+    left: -20px;
+    z-index: 1;
+    background-color: #3e4143;
+    width: 150%;
+}
+
+.nav-item:hover .dropDown {
+    display: block;
 }
 
 h1 {
@@ -120,10 +131,6 @@ h1 {
 
 .filter li label {
     margin: 0;
-}
-
-a.redirect.btn {
-    margin: 20px 0;
 }
 
 .catalogue {
