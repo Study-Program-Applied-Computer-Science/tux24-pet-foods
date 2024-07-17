@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // Script for tabs - it underlines the page navigation and tells user on which page he is active now.
+//(material design component)
     document.addEventListener('DOMContentLoaded', () => {
         const currentPath = window.location.hash;
         const navLinks = document.querySelectorAll('.nav-link');
