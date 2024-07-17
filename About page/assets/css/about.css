@@ -146,6 +146,18 @@
     display: block;
 }
 
+.icon {
+    display: none;
+}
+
+.card:hover .profilePic{
+    display: none;
+}
+
+.card:hover .icon{
+    display: block;
+}
+
 .nav-link {
     text-decoration: none;
     color: white;
