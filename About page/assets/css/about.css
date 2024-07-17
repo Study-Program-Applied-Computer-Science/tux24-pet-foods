@@ -205,9 +205,9 @@ img.bannerImage {
 
 .memberGrid .card img {
     margin: 0 auto;
-    border-radius: 50%;
     object-fit: cover;
     width: 50%;
+    border-radius: 50%;
 }
 
 h5.responsiveText {

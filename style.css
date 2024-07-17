@@ -265,6 +265,21 @@ a:hover{
     padding: 0;
 }
 
+  .button{
+    text-align: center;
+  } 
+
+ .checkOut{
+    background: #FAFAD2;
+    padding: 10px 20px;
+    border-radius: 30px;
+ }
+
+ .checkOut :hover{
+    width: 20px;
+ }
+
+
 
 .footercontainer {
     background: #2d2f31;
@@ -357,11 +372,16 @@ a:hover{
         padding: 20px;
     }
 
+    .card {
+        padding-bottom: 10px;
+    }
+
     .carouselcontainer {
         max-width: 768px;
         margin: 0px;
         padding: 57px;
     }
+
 
    .footercontainer {
     max-width: 768px;
