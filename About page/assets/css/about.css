@@ -156,15 +156,15 @@ li span.bold {
 }
 
 .btn.submitBtn {
-    background-color: grey; 
+    border-radius: 30px;
+    background-color: #ff4500; 
     color: white;
     cursor: pointer;
-    transition: background-color 1s ease;
     margin: 0 auto;
 }
 
 .btn.submitBtn:hover {
-    background-color: black;
+    background-color: #1f5586;
     color: white;
 }
 
