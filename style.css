@@ -265,7 +265,6 @@ a:hover{
     padding: 0;
 }
 
-
 .footercontainer {
     background: #2d2f31;
     border-top: 1px solid #3e4143;
@@ -357,16 +356,25 @@ a:hover{
         padding: 20px;
     }
 
+    .card {
+        padding-bottom: 10px;
+    }
+
     .carouselcontainer {
         max-width: 768px;
         margin: 0px;
         padding: 57px;
     }
 
+
    .footercontainer {
     max-width: 768px;
     margin: 0px;
     padding: 10px;
+   }
+
+   .bannercontainer2{
+    max-width: 768px;
    }
 }
 

@@ -6,19 +6,19 @@
 
 ## Team Members and Contributions:
 ### Mohith Tummala - (A)
-#Team Contributions - Creating Pages and Linking them together, Website Logo creation, Title Font Design, Website Design, Adding font design in all pages, Added Material design - Tabs.
+#Team Contributions - Website Logo creation, Title Font Design, Website Design, Responsiveness, Debugging.
 
-#Individual Contribution - Individual icon creation, Landing Page, icons on Landing Page, Javascript.
+#Individual Contribution - Individual icon creation, Landing Page, icons on Landing Page, Javascript, Added Material design to all pages - Tabs.
 
 ### Sriramkumar Raja Natarajan - (B)
-#Team Contributions - Website Logo Creation, Team picture, Website Design
+#Team Contributions - Website Logo Creation, Team picture, Website Design, Resposiveness, Debugging.
 
 #Individual Contribution - Individual icon creation, About Page and Catfoods page implementation, Added bootstrap, Javascript.
 
 ### Manoj Padmanabha - (C)
-#Team Contributions - Title Font Design, Team picture, Website Design
+#Team Contributions - Title Font Design, Team picture, Website Design, Responsiveness, Debugging.
 
-#Individual Contribution - Individual icon creation, About Page and Catfoods page implementation, Added bootstrap, Javascript.
+#Individual Contribution - Individual icon creation, Foods page and Dogfoods page implementation, Javascript.
 
 
 # Legal Information and Image sources:
@@ -36,7 +36,7 @@ Etsy - "https://www.etsy.com/de-en/listing/620012220/personalized-cat-bowl-custo
 https://github.com/Study-Program-Applied-Computer-Science/tux24-pet-foods.git
 
 # Technology Stack Used:
-HTML, CSS, Javascript, Vanilla.js, Bootstrap.
+HTML, CSS, Javascript, Vanilla.js, Bootstra, Material Design.
 
 # Color Theory:
 We have used different colors in our website following the css color psychology principles.
