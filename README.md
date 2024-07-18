@@ -36,7 +36,7 @@ Etsy - "https://www.etsy.com/de-en/listing/620012220/personalized-cat-bowl-custo
 https://github.com/Study-Program-Applied-Computer-Science/tux24-pet-foods.git
 
 # Technology Stack Used:
-HTML, CSS, Javascript, Vanilla.js, Bootstrap.
+HTML, CSS, Javascript, Vanilla.js, Bootstra, Material Design.
 
 # Color Theory:
 We have used different colors in our website following the css color psychology principles.
