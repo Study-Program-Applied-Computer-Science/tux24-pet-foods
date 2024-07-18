@@ -6,9 +6,9 @@
 
 ## Team Members and Contributions:
 ### Mohith Tummala - (A)
-#Team Contributions - Creating Pages and Linking them together, Website Logo creation, Title Font Design, Website Design, Adding font design in all pages, Added Material design - Tabs.
+#Team Contributions - Website Logo creation, Title Font Design, Website Design, Adding font design in all pages, Responsiveness, Debugging.
 
-#Individual Contribution - Individual icon creation, Landing Page, icons on Landing Page, Javascript.
+#Individual Contribution - Individual icon creation, Landing Page, icons on Landing Page, Javascript, Creating Pages and Linking them together, Added Material design to all pages - Tabs.
 
 ### Sriramkumar Raja Natarajan - (B)
 #Team Contributions - Website Logo Creation, Team picture, Website Design
@@ -18,7 +18,7 @@
 ### Manoj Padmanabha - (C)
 #Team Contributions - Title Font Design, Team picture, Website Design
 
-#Individual Contribution - Individual icon creation, About Page and Catfoods page implementation, Added bootstrap, Javascript.
+#Individual Contribution - Individual icon creation, Foods page and Dogfoods page implementation, Javascript.
 
 
 # Legal Information and Image sources:
