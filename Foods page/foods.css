@@ -101,7 +101,7 @@ body {
     height: 300px;
 }
 main {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 20px auto;
     padding: 0 20px;
 }
@@ -214,5 +214,55 @@ width: 100px;
 .search-icon {
     display: none;
 }
+
+main {
+    max-width: 768px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.parent-container {
+    max-width: 768px;
+    background-image: url('dog\ img/processed-pet-foods-2732x911.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+.dog-foods {
+    max-width: 768px;
+    width: 687px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.dog-foods img {
+    height: 200px;
+    width: 300px;
+    margin-top: 0;
+}
+.dog-foods-content h2 {
+    margin-top: 0;
+}
+
+.cat-foods {
+    max-width: 768px;
+    width: 687px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.cat-foods img {
+    height: 200px;
+    width: 300px;
+   
+    margin-top: 10px;
+}
+
+.cat-foods-content h2 {
+    margin-top: 0;
+}
+
 
   }
