@@ -2,7 +2,7 @@
 
 # Fundamentals towards UX
 
-## Project Team - Pet Foods
+## Project Team - Pet Foods (E-commerce application)
 
 ## Team Members and Contributions:
 ### Mohith Tummala - (A)
